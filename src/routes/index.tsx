@@ -26,13 +26,11 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  useEffect(() => {
-    window.location.replace("/index.html");
-  }, []);
-
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <p className="text-sm text-muted-foreground">Opening the store…</p>
+    <div className="min-h-screen bg-background text-foreground">
+      <h1 className="p-8 text-3xl font-bold">
+        NOVA — Fine Jewellery Store
+      </h1>
     </div>
   );
 }
