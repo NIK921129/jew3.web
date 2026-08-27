@@ -3,6 +3,6 @@
   "trailingSlash": false,
   "rewrites": [
     { "source": "/admin", "destination": "/admin.html" },
-    { "source": "/api/(.*)", "destination": "https://jewl2-web.onrender.com/api/$1" }
+    { "source": "/api/(.*)", "destination": "https://jew3-web.onrender.com/api/$1" }
   ]
 }
